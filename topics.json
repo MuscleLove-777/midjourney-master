@@ -1,0 +1,62 @@
+{
+  "Midjourney 使い方": [
+    {"keyword": "Midjourney 始め方 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney Web版 使い方", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney Discord 使い方", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney 画像生成 初心者ガイド", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney アカウント登録方法", "priority": "medium", "status": "pending"}
+  ],
+  "Midjourney 料金・プラン": [
+    {"keyword": "Midjourney 料金プラン比較 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney 無料で使う方法", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney Basic Pro 違い", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney 商用利用 ライセンス", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney 学生割引 教育プラン", "priority": "low", "status": "pending"}
+  ],
+  "Midjourney v7": [
+    {"keyword": "Midjourney v7 新機能まとめ", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney v7 使い方ガイド", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney v7 vs v6 違い", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney v7 プロンプト最適化", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney v7 画質向上テクニック", "priority": "medium", "status": "pending"}
+  ],
+  "Midjourney プロンプト術": [
+    {"keyword": "Midjourney プロンプト テンプレート集", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney プロンプト コツ 上級者", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney ネガティブプロンプト 使い方", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney スタイル指定 プロンプト", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney 人物生成 プロンプト", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney 風景画 プロンプト", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney アニメ風 プロンプト", "priority": "medium", "status": "pending"}
+  ],
+  "Midjourney vs Flux": [
+    {"keyword": "Midjourney vs Flux 比較 2026", "priority": "high", "status": "pending"},
+    {"keyword": "Flux.1 Pro 使い方 レビュー", "priority": "high", "status": "pending"},
+    {"keyword": "AI画像生成 最強ツール比較 2026", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney Flux 画質比較", "priority": "medium", "status": "pending"}
+  ],
+  "AI画像生成テクニック": [
+    {"keyword": "AI画像生成 アスペクト比 設定ガイド", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney --stylize パラメータ 使い方", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney --chaos パラメータ 活用", "priority": "medium", "status": "pending"},
+    {"keyword": "AI画像生成 高解像度 アップスケール", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney Image to Image 使い方", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney Vary Region 部分編集", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney Blend 機能 活用法", "priority": "low", "status": "pending"}
+  ],
+  "AI画像生成比較": [
+    {"keyword": "Midjourney vs DALL-E 3 比較", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney vs Stable Diffusion 比較", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney vs Adobe Firefly 比較", "priority": "medium", "status": "pending"},
+    {"keyword": "AI画像生成 無料ツール おすすめ 2026", "priority": "medium", "status": "pending"},
+    {"keyword": "AI画像生成 商用利用 ツール比較", "priority": "medium", "status": "pending"}
+  ],
+  "Midjourney 活用事例": [
+    {"keyword": "Midjourney ビジネス活用 事例集", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney SNSアイコン 作成術", "priority": "high", "status": "pending"},
+    {"keyword": "Midjourney ロゴデザイン 活用", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney ブログ アイキャッチ 作成", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney NFT アート 作成", "priority": "medium", "status": "pending"},
+    {"keyword": "Midjourney 副業 イラスト販売", "priority": "medium", "status": "pending"}
+  ]
+}
