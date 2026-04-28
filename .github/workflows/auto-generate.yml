@@ -1,8 +1,6 @@
 name: Midjourney AI画像生成マスター 自動記事生成
 
 on:
-  schedule:
-    - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
