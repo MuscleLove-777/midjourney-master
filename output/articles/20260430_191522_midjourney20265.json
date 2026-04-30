@@ -1,0 +1,26 @@
+{
+  "title": "Midjourney完全使い方ガイド2026【初心者向け5ステップ】",
+  "content": "# Midjourney完全使い方ガイド2026【初心者向け5ステップ】\n\n## この記事でわかること\n\n- **5分で始められる登録から画像生成までの流れ**：Midjourneyアカウント作成、Discord設定、初回プロンプト実行を手順化\n- **プロンプトエンジニアリングの実践的テクニック**：キーワード選定、スタイル指定、パラメータ調整で高品質な画像を生成\n- **初心者が陥る落とし穴と回避方法**：一般的なエラー、プロンプト最適化のコツ、効果的な反復方法\n\n## 結論\n\nMidjourneyの使い方は思ったより簡単です。**アカウント作成 → Discord参加 → プロンプト入力 → パラメータ調整 → 画像生成**の5ステップで、わずか5分で最初の画像を作成できます。重要なのは「良いプロンプトを書く習慣」です。詳細なキーワード、スタイル指定、パラメータ調整を組み合わせることで、思い通りの画像を得られます。\n\n## Midjourneyとは何か\n\nMidjourneyは、テキストプロンプトから高品質な画像を自動生成するAIツール。2023年の登場以来、Flux、DALL-E、Stable Diffusionなどの競合ツールと比較しても、美しい仕上がりと直感的な操作性で人気があります。\n\n**Midjourneyの特徴：**\n- 高いアート性と現実性を両立した画像生成\n- Discordベースの使いやすいUI\n- リアルタイム生成と細かいパラメータ制御\n- Web版も登場し、より簡単にアクセス可能に\n\n2026年時点では、v7が標準で、さらに高精度な画像生成が可能になっています。\n\n## 登録から使い始めるまで\n\n### ステップ1：Midjourneyアカウント作成\n\n1. https://www.midjourney.com/ にアクセス\n2. 「Sign in」をクリック\n3. Googleアカウントまたはメールアドレスで登録\n4. メール認証を完了\n\n### ステップ2：Discordサーバーに参加\n\n1. Midjourney公式Discordサーバーに参加\n2. #newcomers チャネルで /imagine コマンドが使用可能\n3. 初回プロンプトを入力して画像生成を開始\n\n### ステップ3：Web版Midjourneyの活用\n\n最新のWeb版は、Discordなしでも直接ブラウザから利用可能。より初心者向けです。\n\n## プロンプト最適化のコツ\n\nMidjourney使い方を極めるカギはプロンプトの質です。基本的な構造は以下の通りです：\n\n**効果的なプロンプト構造：**\n\n\n## おすすめサービス・ツール\n\nこの記事で紹介した内容を実践するために、以下のサービスがおすすめです。\n\n- **[Midjourney](https://www.midjourney.com)** - Midjourneyに登録する\n- **[Amazon](https://www.amazon.co.jp?tag=musclelove07-22)** - AmazonでAI画像生成関連書籍を探す\n- **[楽天ブックス](https://www.rakuten.co.jp)** - 楽天でAI画像生成関連書籍を探す\n\n*※ 上記リンクからご利用いただくと、サイト運営の支援になります。*\n",
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "image_search_query": "",
+  "meta_description": "Midjourney完全使い方ガイド2026【初心者向け5ステップ】\n\n この記事でわかること\n\n- 5分で始められる登録から画像生成までの流れ：Midjourneyアカウント作成、Discord設定、初回プロンプト実行を手順化\n- プロ",
+  "tags": [
+    "自動生成",
+    "ブログ",
+    "記事",
+    "SEO",
+    "最新"
+  ],
+  "slug": "midjourney20265",
+  "keyword": "Midjourney 使い方",
+  "category": "Midjourney 使い方",
+  "generated_at": "2026-04-30T19:15:22.379836",
+  "seo_score": 55,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"Midjourney完全使い方ガイド2026【初心者向け5ステップ】\",\n  \"description\": \"Midjourney完全使い方ガイド2026【初心者向け5ステップ】\\n\\n この記事でわかること\\n\\n- 5分で始められる登録から画像生成までの流れ：Midjourneyアカウント作成、Discord設定、初回プロンプト実行を手順化\\n- プロ\",\n  \"url\": \"https://musclelove-777.github.io/midjourney-master/articles/midjourney20265.html\",\n  \"datePublished\": \"2026-04-30T19:15:22.379836\",\n  \"dateModified\": \"2026-04-30T19:15:22.379836\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Midjourney AI画像生成マスター\",\n    \"url\": \"https://musclelove-777.github.io/midjourney-master\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Midjourney AI画像生成マスター\",\n    \"url\": \"https://musclelove-777.github.io/midjourney-master\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://musclelove-777.github.io/midjourney-master/articles/midjourney20265.html\"\n  },\n  \"keywords\": \"自動生成, ブログ, 記事, SEO, 最新\",\n  \"articleSection\": \"Midjourney 使い方\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/midjourney-master\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Midjourney 使い方\",\n      \"item\": \"https://musclelove-777.github.io/midjourney-master/category/Midjourney 使い方\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Midjourney完全使い方ガイド2026【初心者向け5ステップ】\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": true,
+  "affiliate_count": 3
+}
