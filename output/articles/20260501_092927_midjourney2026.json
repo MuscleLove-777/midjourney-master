@@ -1,0 +1,26 @@
+{
+  "title": "Midjourneyの使い方完全ガイド【2026年版】",
+  "meta_description": "Midjourneyの使い方を初心者向けに完全解説。プロンプト作成、パラメータ設定、Web版の使用方法など実践的なテクニックをマスターして高品質なAI画像を生成しましょう。",
+  "content": "# Midjourneyの使い方完全ガイド【2026年版】\n\n## この記事でわかること\n\n- Midjourneyの基本的な使い方と初期設定の手順、無料トライアルから有料プランまでの選択肢\n- 高品質な画像を生成するプロンプトエンジニアリングの実践的テクニックと具体的なテンプレート\n- Web版・Discord版の違いと、最新v7で対応した日本語対応、効率的な使い分けのコツ\n\n## 結論\n\nMidjourneyは2026年のv7アップデートにより、適切なプロンプトとパラメータ設定があれば、誰でも高品質なAI生成画像を作成できます。日本語対応が向上し初心者でも直感的に使用可能な環境が整いました。まずは公式Discordサーバーの無料トライアル（25枚）で基本を学び、その後Web版で効率的に作業することが最短の上達ルートです。\n\n## Midjourneyの基本的な使い方：アカウント作成から第一歩まで\n\nMidjourneyを始めるには、公式サイト（https://www.midjourney.com/）でアカウント登録し、Discordサーバーに参加する必要があります。無料トライアルで25枚の画像生成が可能で、有料プランは月額$10～で利用回数が大幅に増加します。\n\n**初期設定の3ステップ：**\n\n1. Midjourneyの公式Discordサーバーに参加（https://discord.gg/midjourney）\n2. `#general`チャンネルで`/imagine`コマンドで最初のプロンプトを入力\n3. Web版（midjourney.com）でアカウント連携して作業効率化\n\nDiscord内では`/imagine prompt: [プロンプト]`の形式で画像生成をリクエストします。生成には数秒～30秒程度かかり、4枚のバリエーション画像が同時に生成されます。\n\n## Web版とDiscord版の違い：効率的な使い分け\n\nMidjourneyはv7からWeb版の機能が大幅強化されました。Discord版は高度なパラメータ制御やコミュニティ機能が充実している一方、Web版は直感的なインターフェースで初心者に優しく、ドラッグ&ドロップの画像入力も容易です。\n\n**Web版の利点：**\n- 視覚的なプロンプト入力ガイド\n- 生成履歴の管理が簡単\n- マルチタスク対応で複数プロンプトの並列実行\n- 拡大機能（Zoom Out）やペイント機能（Inpainting）が搭載\n\n**Discord版の利点：**\n- リアルタイムのコミュニティフィードバック\n- より細かいパラメータ制御\n- バッチ処理や自動化が可能\n\n初心者はWeb版から始め、高度な制御が必要になったらDiscord版に移行するのがお勧めです。\n\n## プロンプトエンジニアリング：高品質な画像を作るコツ\n\n効果的なプロンプトの基本構造：\n\n\n\n## おすすめサービス・ツール\n\nこの記事で紹介した内容を実践するために、以下のサービスがおすすめです。\n\n- **[Midjourney](https://www.midjourney.com)** - Midjourneyに登録する\n- **[Amazon](https://www.amazon.co.jp?tag=musclelove07-22)** - AmazonでAI画像生成関連書籍を探す\n- **[楽天ブックス](https://www.rakuten.co.jp)** - 楽天でAI画像生成関連書籍を探す\n\n*※ 上記リンクからご利用いただくと、サイト運営の支援になります。*\n",
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "image_search_query": "",
+  "tags": [
+    "自動生成",
+    "ブログ",
+    "記事",
+    "SEO",
+    "最新"
+  ],
+  "slug": "midjourney2026",
+  "keyword": "Midjourney 使い方",
+  "category": "Midjourney 使い方",
+  "generated_at": "2026-05-01T09:29:27.470832",
+  "seo_score": 45,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"Midjourneyの使い方完全ガイド【2026年版】\",\n  \"description\": \"Midjourneyの使い方を初心者向けに完全解説。プロンプト作成、パラメータ設定、Web版の使用方法など実践的なテクニックをマスターして高品質なAI画像を生成しましょう。\",\n  \"url\": \"https://musclelove-777.github.io/midjourney-master/articles/midjourney2026.html\",\n  \"datePublished\": \"2026-05-01T09:29:27.470832\",\n  \"dateModified\": \"2026-05-01T09:29:27.470832\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Midjourney AI画像生成マスター\",\n    \"url\": \"https://musclelove-777.github.io/midjourney-master\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Midjourney AI画像生成マスター\",\n    \"url\": \"https://musclelove-777.github.io/midjourney-master\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://musclelove-777.github.io/midjourney-master/articles/midjourney2026.html\"\n  },\n  \"keywords\": \"自動生成, ブログ, 記事, SEO, 最新\",\n  \"articleSection\": \"Midjourney 使い方\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/midjourney-master\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Midjourney 使い方\",\n      \"item\": \"https://musclelove-777.github.io/midjourney-master/category/Midjourney 使い方\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"Midjourneyの使い方完全ガイド【2026年版】\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": true,
+  "affiliate_count": 3
+}
