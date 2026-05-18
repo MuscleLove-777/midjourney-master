@@ -1,0 +1,45 @@
+{
+  "title": "AI画像生成 アスペクト比 設定ガイド2026",
+  "content": "# AI画像生成 アスペクト比 設定ガイド2026\n\n## この記事でわかること\n- Midjourney v7で目的別に最適なアスペクト比を選ぶ方法\n- `--ar`、`--stylize`、`--chaos`、ネガティブプロンプトの実践的な組み合わせ\n- Flux、DALL-E、Stable Diffusion、Adobe Fireflyとの使い分け\n\n## 結論（先に結論を述べる）\nAI画像生成 アスペクト比 設定ガイドの結論は、最初に「使う場所」を決めてから比率を指定することです。SNS投稿なら`--ar 1:1`、YouTubeやブログのアイキャッチなら`--ar 16:9`、スマホ壁紙やショート動画なら`--ar 9:16`が基本です。Midjourney v7では公式ドキュメント上、アスペクト比、`--stylize`、`--chaos`が利用でき、極端な比率は構図が崩れやすいため、まず定番比率から試すのが安全です。商用利用では、有料プランやMidjourney公式利用規約を確認し、既存キャラクター、ブランドロゴ、存命作家名の過度な模倣は避けましょう。\n\n## 本題（H2で3〜5セクション）\n\n## 1. アスペクト比は「掲載先」から逆算する\nアスペクト比とは、画像の横幅と縦幅の比率です。Midjourneyではプロンプト末尾に`--ar 横:縦`を付けます。AI画像生成 アスペクト比 設定ガイドで最も重要なのは、生成後に無理にトリミングしないことです。\n\n用途別の目安は以下です。\n\n| 用途 | 推奨比率 | Midjourney指定 |\n|---|---:|---|\n| Instagram投稿 | 1:1 | `--ar 1:1` |\n| ブログ・YouTubeサムネイル | 16:9 | `--ar 16:9` |\n| Pinterest・ポスター | 2:3 | `--ar 2:3` |\n| スマホ壁紙・ショート動画 | 9:16 | `--ar 9:16` |\n| EC商品画像 | 4:5 | `--ar 4:5` |\n\n基本テンプレート：\n`被写体, 画風, 構図, 光, 背景, 品質指定 --ar 16:9 --s 100 --c 10 --v 7`\n\n{{internal_link:Midjourneyプロンプト基本講座}}\n\n## 2. `--stylize`で作風の強さを調整する\n`--stylize`または`--s`は、Midjourneyらしい美的解釈をどれだけ強めるかの指定です。低めなら指示に忠実、高めなら雰囲気重視になります。\n\n- `--s 50`：商品画像、資料用、写実的な用途\n- `--s 100`：標準。初心者におすすめ\n- `--s 250`：広告ビジュアル、ファッション、アート寄り\n- `--s 750`以上：幻想的・強い作家性。ただし指示から外れる場合あり\n\n例：\n`minimal skincare bottle on white stone, soft daylight, clean commercial photography --ar 4:5 --s 50 --c 5 --v 7`\n\n## 3. `--chaos`で候補の幅を広げる\n`--chaos`または`--c`は、最初に出る4枚のバリエーション差を広げる設定です。構図を探す段階では高め、完成稿では低めが実用的です。\n\n- `--c 0〜10`：安定。ブランド素材向き\n- `--c 20〜40`：構図案出しに最適\n- `--c 60以上`：予想外の発想を得たいとき\n\n例：\n`futuristic cafe interior in Tokyo, warm lighting, cinematic composition --ar 16:9 --s 200 --c 35 --v 7`\n\n## 4. ネガティブプロンプトで不要要素を減らす\nMidjourneyでは`--no`で入れたくない要素を指定できます。ネガティブプロンプトは長くしすぎず、不要な物を明確に書くのがコツです。\n\n例：\n`professional headshot of a Japanese business woman, natural light, plain background --ar 3:4 --s 80 --c 5 --no extra fingers, distorted hands, text, logo --v 7`\n\n人物では手指、文字、ロゴ、不要な背景物を除外すると安定します。ただし一定の目安ではないため、商用納品前にはできるだけ拡大確認してください。\n\n{{internal_link:ネガティブプロンプト完全ガイド}}\n\n## 5. 商用利用と著作権の注意点\nMidjourney公式のTerms of Serviceは2026年時点でも更新が続いています。生成物を商用利用する場合は、契約プラン、公開範囲、企業売上条件、第三者権利の侵害リスクを確認してください。特に有名キャラクター、映画IP、ブランドロゴ、特定作家の名前を使った再現は避けるのが安全です。Adobe Fireflyのように商用利用を前提に設計されたツールと比較し、用途ごとに選びましょう。参考：Midjourney公式 https://www.midjourney.com/ 、公式Docs、Midjourney Discord、The Verge、Ars Technica、r/midjourney。\n\n## プロンプト実例集\n\n1. ブログアイキャッチ\n`Japanese creator desk setup, laptop showing abstract AI art, natural morning light, editorial photography --ar 16:9 --s 120 --c 10 --no text, watermark, logo --v 7`\n\n2. Instagram向け商品画像\n`premium matcha package on ceramic plate, soft shadow, clean Japanese minimalism, commercial product photo --ar 1:1 --s 70 --c 5 --no text, logo, clutter --v 7`\n\n3. スマホ壁紙\n`serene cyberpunk Tokyo alley after rain, neon reflections, cinematic detail, vertical composition --ar 9:16 --s 250 --c 20 --no people, text --v 7`\n\n4. ポスター案\n`retro travel poster of Kyoto in spring, bold composition, elegant color palette, print design --ar 2:3 --s 300 --c 25 --no real logo, copyrighted character --v 7`\n\n5. EC用人物モデル\n`Japanese model wearing simple linen shirt, neutral studio background, realistic ecommerce photography --ar 4:5 --s 50 --c 5 --no distorted hands, extra fingers, text --v 7`\n\n{{internal_link:Midjourney商用利用チェックリスト}}\n\n## 他のAI画像生成ツールとの比較\n\n| ツール | アスペクト比設定 | 得意分野 | 注意点 |\n|---|---|---|---|\n| Midjourney v7 | `--ar`で柔軟に指定 | 高品質なビジュアル、広告、世界観作り | 文字や厳密な再現は要検証 |\n| Flux | 比較的柔軟 | 写実表現、ローカル運用、開発者向け | 環境構築やモデル選定が必要 |\n| DALL-E | UI上で比率選択が中心 | 指示理解、編集、自然な会話生成 | Midjourneyほど作風の濃さは出にくい場合あり |\n| Stable Diffusion | 解像度・比率を細かく指定 | LoRA、ControlNet、ワークフロー制御 | 初心者には設定が複雑 |\n| Adobe Firefly | 用途別に扱いやすい | 商用利用配慮、Adobe連携 | 表現の自由度は用途により制限あり |\n\n## よくある質問（FAQ）\n\n### Q1: Midjourneyでおすすめのアスペクト比は？\nA1: 初心者は`--ar 1:1`、`--ar 16:9`、`--ar 9:16`から始めるのがおすすめです。SNS、ブログ、スマホ表示の主要用途をほぼカバーできます。\n\n### Q2: `--stylize`は高いほど良いですか？\nA2: いいえ。商品写真や資料画像では`--s 50〜100`、アート作品では`--s 250以上`が目安です。高すぎると指示から外れることがあります。\n\n### Q3: ネガティブプロンプトは何を書けばいいですか？\nA3: `--no text, logo, watermark, extra fingers, distorted hands`のように、不要な要素を短く具体的に指定します。長文よりも明確さが重要です。\n\n### Q4: 生成画像は商用利用できますか？\nA4: Midjourneyの利用規約と契約プランに従う必要があります。また、第三者の著作物、商標、キャラクターに似すぎた画像は商用利用を避けるべきです。\n\n## おすすめサービス・ツール\n\nこの記事で紹介した内容を実践するために、以下のサービスがおすすめです。\n\n- **[Amazon](https://www.amazon.co.jp?tag=musclelove07-22)** - AmazonでAI画像生成関連書籍を探す\n- **[楽天ブックス](https://www.rakuten.co.jp)** - 楽天でAI画像生成関連書籍を探す\n\n*※ 上記リンクからご利用いただくと、サイト運営の支援になります。*\n\n\n## まとめ\nAI画像生成 アスペクト比 設定ガイドの基本は、掲載先に合わせて`--ar`を決め、`--stylize`で作風、`--chaos`で探索幅、`--no`で不要要素を調整することです。まずは`--ar 16:9 --s 100 --c 10`を基準にし、SNSなら1:1、縦型なら9:16へ変更しましょう。商用利用では公式規約と著作権リスクを確認し、納品前に細部をチェックすることがプロ品質への近道です。",
+  "meta_description": "Midjourney v7対応。AI画像生成のアスペクト比、--ar、--stylize、--chaos設定を実例付きで解説。",
+  "tags": [
+    "AI画像生成",
+    "Midjourney",
+    "アスペクト比",
+    "プロンプト",
+    "商用利用"
+  ],
+  "slug": "ai-image-aspect-ratio-guide-2026",
+  "faq": [
+    {
+      "question": "Midjourneyでおすすめのアスペクト比は？",
+      "answer": "初心者は1:1、16:9、9:16から始めるのがおすすめです。SNS、ブログ、スマホ表示の主要用途をカバーできます。"
+    },
+    {
+      "question": "--stylizeは高いほど良いですか？",
+      "answer": "いいえ。商品写真や資料画像では50〜100、アート作品では250以上が目安です。高すぎると指示から外れることがあります。"
+    },
+    {
+      "question": "ネガティブプロンプトは何を書けばいいですか？",
+      "answer": "--no text, logo, watermark, extra fingers, distorted handsのように、不要な要素を短く具体的に指定します。"
+    },
+    {
+      "question": "生成画像は商用利用できますか？",
+      "answer": "Midjourneyの利用規約と契約プランに従う必要があります。第三者の著作物、商標、キャラクターに似すぎた画像は避けてください。"
+    }
+  ],
+  "hero_emoji": "📝",
+  "hero_gradient": "135deg",
+  "image_search_query": "",
+  "keyword": "AI画像生成 アスペクト比 設定ガイド",
+  "category": "AI画像生成テクニック",
+  "generated_at": "2026-05-18T23:48:34.005770",
+  "seo_score": 95,
+  "jsonld": [
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BlogPosting\",\n  \"headline\": \"AI画像生成 アスペクト比 設定ガイド2026\",\n  \"description\": \"Midjourney v7対応。AI画像生成のアスペクト比、--ar、--stylize、--chaos設定を実例付きで解説。\",\n  \"url\": \"https://musclelove-777.github.io/midjourney-master/articles/ai-image-aspect-ratio-guide-2026.html\",\n  \"datePublished\": \"2026-05-18T23:48:34.005770\",\n  \"dateModified\": \"2026-05-18T23:48:34.005770\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Midjourney AI画像生成マスター\",\n    \"url\": \"https://musclelove-777.github.io/midjourney-master\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Midjourney AI画像生成マスター\",\n    \"url\": \"https://musclelove-777.github.io/midjourney-master\"\n  },\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://musclelove-777.github.io/midjourney-master/articles/ai-image-aspect-ratio-guide-2026.html\"\n  },\n  \"keywords\": \"AI画像生成, Midjourney, アスペクト比, プロンプト, 商用利用\",\n  \"articleSection\": \"AI画像生成テクニック\",\n  \"inLanguage\": \"ja\"\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Midjourneyでおすすめのアスペクト比は？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"初心者は1:1、16:9、9:16から始めるのがおすすめです。SNS、ブログ、スマホ表示の主要用途をカバーできます。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"--stylizeは高いほど良いですか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"いいえ。商品写真や資料画像では50〜100、アート作品では250以上が目安です。高すぎると指示から外れることがあります。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"ネガティブプロンプトは何を書けばいいですか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"--no text, logo, watermark, extra fingers, distorted handsのように、不要な要素を短く具体的に指定します。\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"生成画像は商用利用できますか？\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Midjourneyの利用規約と契約プランに従う必要があります。第三者の著作物、商標、キャラクターに似すぎた画像は避けてください。\"\n      }\n    }\n  ]\n}\n</script>",
+    "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"ホーム\",\n      \"item\": \"https://musclelove-777.github.io/midjourney-master\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"AI画像生成テクニック\",\n      \"item\": \"https://musclelove-777.github.io/midjourney-master/category/AI画像生成テクニック\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"name\": \"AI画像生成 アスペクト比 設定ガイド2026\"\n    }\n  ]\n}\n</script>"
+  ],
+  "has_affiliate": true,
+  "affiliate_count": 2
+}

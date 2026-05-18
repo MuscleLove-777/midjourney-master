@@ -144,7 +144,8 @@
     {
       "keyword": "AI画像生成 アスペクト比 設定ガイド",
       "priority": "high",
-      "status": "pending"
+      "status": "done",
+      "done_at": "2026-05-18T23:48:34.364462"
     },
     {
       "keyword": "Midjourney --stylize パラメータ 使い方",
